@@ -1,6 +1,6 @@
 class QuantityResponseModel {
-  final String itemOCode;
-  final String qty;
+   String itemOCode;
+   String qty;
 
   QuantityResponseModel({
     required this.itemOCode,

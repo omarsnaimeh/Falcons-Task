@@ -51,9 +51,22 @@ class DatabaseHelper {
     }
   }
 
+  Future<List<Map<String, dynamic>>> debugDatabaseContent() async {
+    final db = await database;
+    return await db.query('items');
+  }
+
   Future<List<ItemsResponseModel>> fetchItems() async {
     final db = await database;
     final result = await db.query('items');
-    return result.map((e) => ItemsResponseModel.fromJson(e)).toList();
+
+    return result.map((row) {
+      return ItemsResponseModel(
+        itemNo: (row['itemNo'] as String?) ?? "",
+        name: (row['name'] as String?) ?? "",
+        barcode: (row['barcode'] as String?) ?? "",
+        qty: (row['qty'] as String?) ?? "0",
+      );
+    }).toList();
   }
 }
