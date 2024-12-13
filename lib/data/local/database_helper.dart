@@ -51,11 +51,6 @@ class DatabaseHelper {
     }
   }
 
-  Future<List<Map<String, dynamic>>> debugDatabaseContent() async {
-    final db = await database;
-    return await db.query('items');
-  }
-
   Future<List<ItemsResponseModel>> fetchItems() async {
     final db = await database;
     final result = await db.query('items');
