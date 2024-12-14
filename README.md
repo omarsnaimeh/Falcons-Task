@@ -1,16 +1,6 @@
 # falcons_task
 
-A new Flutter project.
+![loading screen](https://github.com/user-attachments/assets/f5840534-b249-4a51-b999-e01693f22380)
+![Success](https://github.com/user-attachments/assets/9a8e4cf4-bd55-4dbc-8475-e240c58a2901)
+![Error](https://github.com/user-attachments/assets/2f90b4c5-3012-4fa0-83e0-08172662ae5d)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
